@@ -61,7 +61,7 @@ export const CustomCursor = () => {
       <div
         ref={dotRef}
         aria-hidden
-        className="pointer-events-none fixed left-0 top-0 z-[9999] hidden h-2 w-2 rounded-full bg-gold mix-blend-difference md:block"
+        className="pointer-events-none fixed left-0 top-0 z-[9999] hidden h-2 w-2 rounded-full bg-gold mix-blend-difference md:block will-change-transform"
         style={{ opacity: visible ? 1 : 0, transition: "opacity 0.2s" }}
       />
       <div
