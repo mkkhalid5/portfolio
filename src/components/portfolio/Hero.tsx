@@ -47,7 +47,7 @@ export const Hero = () => {
               custom={1} variants={fadeUp} initial="hidden" animate="show"
               className="text-serif text-[clamp(3rem,9vw,8rem)] leading-[0.95] tracking-tight"
             >
-              Crafting <span className="italic text-gradient-gold">premium</span><br/>
+              Crafting <span className="italic text-gradient-gold">premium</span><br />
               digital experiences.
             </motion.h1>
 
@@ -71,8 +71,9 @@ export const Hero = () => {
                 <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
               </a>
               <a
+                target="_blank"
                 href="https://drive.google.com/file/d/1I6P0iceo_6xLop5gcI1DGpjOFLy-j2HS/view"
-                onClick={(e) => e.preventDefault()}
+                
                 className="group inline-flex items-center gap-3 rounded-full glass-strong px-7 py-4 text-sm font-semibold uppercase tracking-widest transition-transform hover:scale-[1.03]"
               >
                 <Download size={16} className="text-gold" />
@@ -99,7 +100,7 @@ export const Hero = () => {
                   Icon: Facebook,
                   link: "https://www.facebook.com/mrsilent55i",
                 },
-                
+
               ].map(({ Icon, link }, i) => (
                 <a key={i} href={link} aria-label="Social"
                   className="flex h-10 w-10 items-center justify-center rounded-full glass transition-colors hover:bg-gold/15 hover:text-gold">
@@ -126,8 +127,8 @@ export const Hero = () => {
                     <div className="h-3 w-3 animate-pulse rounded-full bg-gold" />
                   </div>
                   <div className="space-y-2">
-                    <img src={mk} alt=""  className="rounded-md"/>
-                    
+                    <img src={mk} alt="" className="rounded-md" />
+
                     <div className="mt-1 text-sm text-muted-foreground">Web Developer & UI Engineer</div>
                   </div>
                   <div className="flex items-end justify-between">
