@@ -71,7 +71,7 @@ export const Hero = () => {
                 <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
               </a>
               <a
-                href="#"
+                href="https://drive.google.com/file/d/1I6P0iceo_6xLop5gcI1DGpjOFLy-j2HS/view"
                 onClick={(e) => e.preventDefault()}
                 className="group inline-flex items-center gap-3 rounded-full glass-strong px-7 py-4 text-sm font-semibold uppercase tracking-widest transition-transform hover:scale-[1.03]"
               >
